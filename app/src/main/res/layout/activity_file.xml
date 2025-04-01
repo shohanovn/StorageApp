@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/ed_input"
+        style="@style/CustomEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите текст" />
+
+    <Button
+        android:id="@+id/btn_write"
+        style="@style/CustomButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Записать в файл"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_read"
+        style="@style/CustomButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Прочитать из файла"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tv_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Результат будет тут"
+        android:layout_marginTop="24dp"
+        android:textSize="16sp" />
+
+</LinearLayout>
